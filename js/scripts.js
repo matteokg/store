@@ -1,2 +1,5 @@
 $(document).ready(function() {
-  $("#jean").click()
+  $("img#jean").click(function() {
+    $("form#infoadd").show();
+  });
+});
